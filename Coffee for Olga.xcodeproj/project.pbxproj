@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F156ED824C5DF34009AD069 /* Coffee for Olga WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5F156ED724C5DF34009AD069 /* Coffee for Olga WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5F156EDE24C5DF34009AD069 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F156EDC24C5DF34009AD069 /* Interface.storyboard */; };
+		5F156EE024C5DF35009AD069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F156EDF24C5DF35009AD069 /* Assets.xcassets */; };
+		5F156EE724C5DF35009AD069 /* Coffee for Olga WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F156EE624C5DF35009AD069 /* Coffee for Olga WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5F156EEC24C5DF36009AD069 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F156EEB24C5DF36009AD069 /* InterfaceController.swift */; };
+		5F156EEE24C5DF36009AD069 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F156EED24C5DF36009AD069 /* ExtensionDelegate.swift */; };
+		5F156EF024C5DF36009AD069 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F156EEF24C5DF36009AD069 /* NotificationController.swift */; };
+		5F156EF224C5DF36009AD069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F156EF124C5DF36009AD069 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F156ED924C5DF34009AD069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F156ECD24C5DF34009AD069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F156ED624C5DF34009AD069;
+			remoteInfo = "Coffee for Olga WatchKit App";
+		};
+		5F156EE824C5DF35009AD069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F156ECD24C5DF34009AD069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F156EE524C5DF35009AD069;
+			remoteInfo = "Coffee for Olga WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F156EFA24C5DF36009AD069 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5F156EE724C5DF35009AD069 /* Coffee for Olga WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F156EFE24C5DF36009AD069 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5F156ED824C5DF34009AD069 /* Coffee for Olga WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F156ED324C5DF34009AD069 /* Coffee for Olga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee for Olga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F156ED724C5DF34009AD069 /* Coffee for Olga WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee for Olga WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F156EDD24C5DF34009AD069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5F156EDF24C5DF35009AD069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F156EE124C5DF35009AD069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F156EE624C5DF35009AD069 /* Coffee for Olga WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Coffee for Olga WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F156EEB24C5DF36009AD069 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5F156EED24C5DF36009AD069 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5F156EEF24C5DF36009AD069 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5F156EF124C5DF36009AD069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F156EF324C5DF36009AD069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F156EF424C5DF36009AD069 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F156EE324C5DF35009AD069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F156ECC24C5DF34009AD069 = {
+			isa = PBXGroup;
+			children = (
+				5F156EDB24C5DF34009AD069 /* Coffee for Olga WatchKit App */,
+				5F156EEA24C5DF36009AD069 /* Coffee for Olga WatchKit Extension */,
+				5F156ED424C5DF34009AD069 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F156ED424C5DF34009AD069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F156ED324C5DF34009AD069 /* Coffee for Olga.app */,
+				5F156ED724C5DF34009AD069 /* Coffee for Olga WatchKit App.app */,
+				5F156EE624C5DF35009AD069 /* Coffee for Olga WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F156EDB24C5DF34009AD069 /* Coffee for Olga WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5F156EDC24C5DF34009AD069 /* Interface.storyboard */,
+				5F156EDF24C5DF35009AD069 /* Assets.xcassets */,
+				5F156EE124C5DF35009AD069 /* Info.plist */,
+			);
+			path = "Coffee for Olga WatchKit App";
+			sourceTree = "<group>";
+		};
+		5F156EEA24C5DF36009AD069 /* Coffee for Olga WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5F156EEB24C5DF36009AD069 /* InterfaceController.swift */,
+				5F156EED24C5DF36009AD069 /* ExtensionDelegate.swift */,
+				5F156EEF24C5DF36009AD069 /* NotificationController.swift */,
+				5F156EF124C5DF36009AD069 /* Assets.xcassets */,
+				5F156EF324C5DF36009AD069 /* Info.plist */,
+				5F156EF424C5DF36009AD069 /* PushNotificationPayload.apns */,
+			);
+			path = "Coffee for Olga WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F156ED224C5DF34009AD069 /* Coffee for Olga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F156EFF24C5DF36009AD069 /* Build configuration list for PBXNativeTarget "Coffee for Olga" */;
+			buildPhases = (
+				5F156ED124C5DF34009AD069 /* Resources */,
+				5F156EFE24C5DF36009AD069 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F156EDA24C5DF34009AD069 /* PBXTargetDependency */,
+			);
+			name = "Coffee for Olga";
+			productName = "Coffee for Olga";
+			productReference = 5F156ED324C5DF34009AD069 /* Coffee for Olga.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5F156ED624C5DF34009AD069 /* Coffee for Olga WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F156EFB24C5DF36009AD069 /* Build configuration list for PBXNativeTarget "Coffee for Olga WatchKit App" */;
+			buildPhases = (
+				5F156ED524C5DF34009AD069 /* Resources */,
+				5F156EFA24C5DF36009AD069 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F156EE924C5DF35009AD069 /* PBXTargetDependency */,
+			);
+			name = "Coffee for Olga WatchKit App";
+			productName = "Coffee for Olga WatchKit App";
+			productReference = 5F156ED724C5DF34009AD069 /* Coffee for Olga WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5F156EE524C5DF35009AD069 /* Coffee for Olga WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F156EF724C5DF36009AD069 /* Build configuration list for PBXNativeTarget "Coffee for Olga WatchKit Extension" */;
+			buildPhases = (
+				5F156EE224C5DF35009AD069 /* Sources */,
+				5F156EE324C5DF35009AD069 /* Frameworks */,
+				5F156EE424C5DF35009AD069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coffee for Olga WatchKit Extension";
+			productName = "Coffee for Olga WatchKit Extension";
+			productReference = 5F156EE624C5DF35009AD069 /* Coffee for Olga WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F156ECD24C5DF34009AD069 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Olga Reznikova";
+				TargetAttributes = {
+					5F156ED224C5DF34009AD069 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					5F156ED624C5DF34009AD069 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					5F156EE524C5DF35009AD069 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 5F156ED024C5DF34009AD069 /* Build configuration list for PBXProject "Coffee for Olga" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F156ECC24C5DF34009AD069;
+			productRefGroup = 5F156ED424C5DF34009AD069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F156ED224C5DF34009AD069 /* Coffee for Olga */,
+				5F156ED624C5DF34009AD069 /* Coffee for Olga WatchKit App */,
+				5F156EE524C5DF35009AD069 /* Coffee for Olga WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F156ED124C5DF34009AD069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F156ED524C5DF34009AD069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F156EE024C5DF35009AD069 /* Assets.xcassets in Resources */,
+				5F156EDE24C5DF34009AD069 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F156EE424C5DF35009AD069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F156EF224C5DF36009AD069 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F156EE224C5DF35009AD069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F156EF024C5DF36009AD069 /* NotificationController.swift in Sources */,
+				5F156EEE24C5DF36009AD069 /* ExtensionDelegate.swift in Sources */,
+				5F156EEC24C5DF36009AD069 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F156EDA24C5DF34009AD069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F156ED624C5DF34009AD069 /* Coffee for Olga WatchKit App */;
+			targetProxy = 5F156ED924C5DF34009AD069 /* PBXContainerItemProxy */;
+		};
+		5F156EE924C5DF35009AD069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F156EE524C5DF35009AD069 /* Coffee for Olga WatchKit Extension */;
+			targetProxy = 5F156EE824C5DF35009AD069 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F156EDC24C5DF34009AD069 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F156EDD24C5DF34009AD069 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F156EF524C5DF36009AD069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F156EF624C5DF36009AD069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F156EF824C5DF36009AD069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6BBH27T4R;
+				INFOPLIST_FILE = "Coffee for Olga WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.ad-astra.Coffee-for-Olga.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		5F156EF924C5DF36009AD069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6BBH27T4R;
+				INFOPLIST_FILE = "Coffee for Olga WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.ad-astra.Coffee-for-Olga.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		5F156EFC24C5DF36009AD069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6BBH27T4R;
+				IBSC_MODULE = Coffee_for_Olga_WatchKit_Extension;
+				INFOPLIST_FILE = "Coffee for Olga WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.ad-astra.Coffee-for-Olga.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		5F156EFD24C5DF36009AD069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6BBH27T4R;
+				IBSC_MODULE = Coffee_for_Olga_WatchKit_Extension;
+				INFOPLIST_FILE = "Coffee for Olga WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.ad-astra.Coffee-for-Olga.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		5F156F0024C5DF36009AD069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6BBH27T4R;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.ad-astra.Coffee-for-Olga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5F156F0124C5DF36009AD069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6BBH27T4R;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.ad-astra.Coffee-for-Olga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F156ED024C5DF34009AD069 /* Build configuration list for PBXProject "Coffee for Olga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F156EF524C5DF36009AD069 /* Debug */,
+				5F156EF624C5DF36009AD069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F156EF724C5DF36009AD069 /* Build configuration list for PBXNativeTarget "Coffee for Olga WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F156EF824C5DF36009AD069 /* Debug */,
+				5F156EF924C5DF36009AD069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F156EFB24C5DF36009AD069 /* Build configuration list for PBXNativeTarget "Coffee for Olga WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F156EFC24C5DF36009AD069 /* Debug */,
+				5F156EFD24C5DF36009AD069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F156EFF24C5DF36009AD069 /* Build configuration list for PBXNativeTarget "Coffee for Olga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F156F0024C5DF36009AD069 /* Debug */,
+				5F156F0124C5DF36009AD069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F156ECD24C5DF34009AD069 /* Project object */;
+}
