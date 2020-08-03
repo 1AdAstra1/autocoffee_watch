@@ -35,7 +35,7 @@ class InterfaceController: WKInterfaceController, CBCentralManagerDelegate, CBPe
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        let centralQueue: DispatchQueue = DispatchQueue(label: "com.iosbrain.centralQueueName", attributes: .concurrent)
+        let centralQueue: DispatchQueue = DispatchQueue(label: "name.ad_astra.CoffeeQueue", attributes: .concurrent)
         centralManager = CBCentralManager(delegate: self, queue: centralQueue)
         makeCoffeeButton.setEnabled(false)
         statusLabel.setHorizontalAlignment(WKInterfaceObjectHorizontalAlignment.center)
@@ -68,7 +68,6 @@ class InterfaceController: WKInterfaceController, CBCentralManagerDelegate, CBPe
             print("Bluetooth status is POWERED ON")
             
             centralManager?.scanForPeripherals(withServices: [serviceID], options: nil)
-            //centralManager?.retrievePeripherals(withIdentifiers: [bluetoothID!])
         }
     }
     
